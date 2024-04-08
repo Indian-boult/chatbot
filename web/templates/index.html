@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="/web/static/style.css">
+</head>
+<body>
+<div id="chat-container">
+    <div id="chat-title">Chat with our Bot</div>
+    <div id="chat-box"></div>
+    <input type="text" id="chat-input">
+    <button onclick="sendMessage()">Send</button>
+</div>
+<div id="upload-container">
+    <form id="upload-form">
+        <input type="file" id="image-input" name="image">
+        <input type="text" placeholder="Identifier" name="identifier" required>
+        <input type="submit" value="Upload Image">
+    </form>
+</div>
+<script src="websocket.js"></script>
+<script src="upload.js"></script>
+</body>
+</html>

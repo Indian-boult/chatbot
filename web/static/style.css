@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#chat-container, #upload-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#upload-container {
+    height: 150px;
+    padding: 40px;
+}
+
+#chat-box {
+    width: 400px;
+    height: 500px; /* Increase the height as desired */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: auto; /* This will center the chat box if the parent container is wider */
+}
+
+#chat-title {
+    font-size: 20px; /* Choose an appropriate font size */
+    text-align: center; /* Center the title text */
+    margin-bottom: 20px; /* Space between the title and the chatbox */
+}
+
+
+#chat-box div {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+}
+
+#chat-input {
+    padding: 10px;
+    width: calc(100% - 86px);
+    margin-right: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#upload-form input[type="text"], #upload-form input[type="file"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#upload-form input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#upload-form input[type="submit"]:hover {
+    background-color: #218838;
+}
