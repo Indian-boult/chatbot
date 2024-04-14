@@ -55,7 +55,7 @@ Retrieve the metadata for an uploaded image.
 <img width="1289" alt="image" src="https://github.com/Indian-boult/chatbot/assets/64060864/d8cf96a3-6e85-471f-bc6f-d8de29134401">
 
 ### Using UI
-It's straighforward and here is how the UI looks, make sure to mention identifier name in the input to understand about the image or retrieve the image.
+Here I have created the simple UI to access the chatbot and use it's feature to upload image, retrieve image, talk about image.
 <img width="1033" alt="image" src="https://github.com/Indian-boult/chatbot/assets/64060864/8b1f0d60-5141-4407-ac48-373cbd9f75ef">
 
 ## License
