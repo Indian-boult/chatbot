@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The purpose of the chatbot is image uploading and retrieval, WebSocket communication, and OpenAI integration.
+Developed a chatbot to handle image uploading and retrieval, utilizing WebSocket communication and OpenAI integration for enhanced interactions
 
 ## Features
 
