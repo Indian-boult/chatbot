@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Briefly describe the purpose of the chatbot, its capabilities (such as image uploading and retrieval, WebSocket communication, and OpenAI integration), and the technologies used.
+The purpose of the chatbot, its capabilities (such as image uploading and retrieval, WebSocket communication, and OpenAI integration), and the technologies used.
 
 ## Features
 
